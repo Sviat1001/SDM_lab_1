@@ -1,6 +1,6 @@
 const interactive = require('./interactive');
 const noninteractive = require ('./noninteractive')
-/*const arrayCheck = (array) => { 
+const arrayCheck = (array) => { 
     array.forEach((coef) => array.push(Number(coef)));
   
     if (Number(array[0]) === 0) {
@@ -10,11 +10,8 @@ const noninteractive = require ('./noninteractive')
   
     return array;
   };
-  */
-array = [1, 4, 2]
 const solution = (array) => {
-//    const Coeffs = arrayCheck(array);
-    const Coeffs = array
+    const Coeffs = arrayCheck(array);
     const [a, b, c] = Coeffs
     const Discriminant = b * b - 4 * a * c
     const DiscRoot = Math.sqrt(Discriminant)
@@ -41,11 +38,10 @@ const solution = (array) => {
     }
 }
 
-/*let result;
+let result;
 if (process.argv[2] !== undefined) {
   result = noninteractive();
 } else {
   result = interactive();
 }
-console.log(solution(result));*/
-console.log(solution(array))
+console.log(solution(result));
