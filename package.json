@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "readline-sync": "^1.4.10"
+  },
+  "name": "sdm_lab_1",
+  "description": "program that solves quadratic equations",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sviat1001/SDM_lab_1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sviat1001/SDM_lab_1/issues"
+  },
+  "homepage": "https://github.com/Sviat1001/SDM_lab_1#readme"
+}
