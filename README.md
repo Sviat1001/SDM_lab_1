@@ -1,7 +1,5 @@
-# SDM_lab_1
-## This is a program that solves quadratic equations
-## The program supports interactive and non-interactive modes. In interactive mode the user inputs parameters by using a console.
-## In non-interactive mode the user inputs parameters by using a prepared text document
+# Quadratic equation solving program
+This is a program that solves quadratic equations. The program supports interactive and non-interactive modes. In interactive mode the user inputs parameters by using a console. In non-interactive mode the user inputs parameters by using a prepared text document
 ## Instruction on how to install the program:
 ### 1. Copy the repository folder
 ```bash
@@ -27,4 +25,4 @@ main.js fileName
 ```
 ## File format description
 Program can use all text formats. Program will work correctly if the contents of the file are the following: `a \s b \s c \n`. Example: `4 2 1`
-
+[Revert commit link](https://github.com/Sviat1001/SDM_lab_1/commit/c411f86a142e229a7067af5c12f21a5841377d0e)
